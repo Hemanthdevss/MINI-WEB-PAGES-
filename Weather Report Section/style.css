@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.backgroundContainer {
+    background-image: linear-gradient(to bottom, #b96fa1, #5a3f8c);
+    height: 170vh;
+    width: 100vw;
+}
+
+.imageStyle {
+    height: 100px;
+    width: 100px;
+    margin-left: 15px;
+}
+
+.firstContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    font-family: "Roboto";
+    font-size: 15px;
+    padding:10px;
+    margin-left:7px;
+    
+}
+
+.secondContainer {
+    background-color: #b96fa1;
+    height: 135vh;
+    width: 85%;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius:10px;
+}
+
+.dataContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    color: white;
+    font-family: "Roboto";
+}
+
+.tempFlex {
+    display: flex;
+    flex-direction: column;
+}
+
+.tempFlex p {
+    margin: 0; 
+}
+
+.iconStyle {
+    height: 60px;
+    width: 60px;
+}
+
+.lineColor {
+    border: none; 
+    border-top: 2px solid white; 
+    margin: 10px 0; 
+}
+
+@media screen and (min-width:900px) {
+    .secondContainer {
+        background-color: #b96fa1;
+        height: 40vh;
+        width: 80%;
+        margin: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        border-radius:10px;
+    }
+    
+    .dataContainer {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        color: white;
+        font-family: "Roboto";
+    }
+    
+    .tempFlex {
+        display: flex;
+        flex-direction: row;
+}
+}
